@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Broadway</title>
-    <link href="./resources/style.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
   </head>
   <body>
     <!-- Top Section  -->
@@ -12,15 +12,16 @@
     <h1>Broadway Design</h1>
     <!-- Top Navigation -->
     <nav>
-        <p><a href="#home">Home</a></p>
-        <p><a href="#process">Process</a></p>
-        <p><a href="#work">Work</a></p>
-        <p><a href="#team">Team</a></p>
-        <p><a href="#contact">Contact</a></p>
+        <p class = "nav"><a href="#home">Home</a></p>
+        <p class = "nav"><a href="#process">Process</a></p>
+        <p class = "nav"><a href="#work">Work</a></p>
+        <p class = "nav"><a href="#team">Team</a></p>
+        <p class = "nav"><a href="#contact">Contact</a></p>
     </nav>
+    <br>
   </div>
     <!-- Main Section Begin -->
-  <div id="process">
+  <div class ="process">
     <h2>Our Process</h2>
     <img src="./resources/images/identify.svg" alt="Identify Icon">
     <h3>Identify</h3>
@@ -31,25 +32,33 @@
     <img src="./resources/images/execute.svg" alt="Execute Icon">
     <h3>Execute</h3>
     <p>We put everything we have into our work.</p>
-    <p id = "newyork">Designed in New York</p>
+
+  </div>
+
+  <div>
+    <p class = "newyork">Designed in New York</p>
   </div>
 
   <!-- Begin Portfolio Section -->
   <div id="work">
-    <h2>Portfolio</h2>
+    <h3>Portfolio</h3>
     <p>Coming soon</p>
   </div>
 
   <div id="team">
-    <h2>Team</h2>
+    <h3>Team</h3>
     <p>We're Hiring!</p>
   </div>
 
   <div id="contact">
-    <h2>Contact</h2>
+    <h3>Contact</h3>
     <p>Phone: (555)-555-5555</p>
     <p>E-mail: test@example.com</p>
     <p>Twitter: @test</p>
+  </div>
+
+  <div class="foot">
+    <p>© Broadway 2017 <span><a href="#top"> HOME</a><a href="#process"> ABOUT</a><a href="#work"> WORK</a><a href="#team"> TEAM</a><a href="#contact"> CONTACT</a></span></p>
   </div>
   </body>
 </html>
